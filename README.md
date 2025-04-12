@@ -11,6 +11,15 @@ This project detects and classifies color patterns from digital images of LEGO "
 - Displays color results in a structured 4x4 grid
 - Evaluates detection accuracy against `.mat` files containing solutions
 
+##📁 Dataset
+The repository includes two folders containing the image data used for testing and evaluation:
+
+images/: Contains processed .png images of LEGO color patterns used during development.
+
+photos/: Contains real-world photos that were processed using the pipeline. These include challenges like lighting variations, shadows, angles, and distortions.
+
+Each image corresponds to a .mat file (where applicable) storing the ground truth for validation.
+
 ## 🧠 Methods
 
 ### 1. `findColours.m`
